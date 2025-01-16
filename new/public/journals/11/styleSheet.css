@@ -1,0 +1,50 @@
+.pkp_site_name {padding-top: 0 !important; padding-bottom: 0 !important}
+.pkp_site_name > a {padding-top: 0; padding-bottom: 0;}
+.pkp_site_name .is_img img {max-height: 200px !important;}
+.pkp_site_name_wrapper {padding-left: 0; padding-right: 0;}
+.pkp_navigation_user_wrapper {top: 0; right: 0; padding-right:30px;}
+.pkp_structure_page {margin-top: 20px !important; margin-bottom:20 !important; padding-bottom: 20 !important;}
+
+.pkp_footer_content {
+ float: left; width: 70%; padding-top: 10px; padding-bottom:10px; }
+.pkp_brand_footer {
+ float: right; width: 30%; padding-bottom:10px; padding-top: 50px; }
+.pkp_structure_footer_wrapper {
+ border-bottom:@double solid; }
+
+ .pkp_structure_content {
+background-color: #F5FFFA !important;
+}
+
+body {
+	background-image: url('../pattern.png');
+}
+
+.obj_issue_toc .articles > li {
+margin-bottom: 20px;
+border-bottom: solid darkseagreen;
+background-color: #E6E6FA !important;
+/*background: transparent url("https://i.ibb.co/0VGxnwY/dot.png") repeat scroll 0% 0% !important;*/
+padding: 1rem;
+border-radius: 0rem 0rem 0rem 2rem;
+/*border-radius: 2rem 2rem 2rem 2rem;*/
+box-shadow: .4rem .4rem .3rem #dedede; }
+
+.ac-label { font-weight: 700; position: relative; padding: .5em 1em; margin-bottom: .5em; display: block;
+cursor: pointer; background-color: #f29b11; transition: background-color .15s ease-in-out; }
+.ac-input:checked + label, .ac-label:hover { background-color: #f29b11; }
+.ac-label:after, .ac-input:checked + .ac-label:after { content: "+"; position: absolute; display: block; right: 0; top: 0; width: 2em; 
+height: 100%; line-height: 2.25em;
+text-align: center; background-color: #f9bf3b; transition: background-color .15s ease-in-out; }
+.ac-label:hover:after, .ac-input:checked + .ac-label:after { background-color: #f29b11;}
+.ac-input:checked + .ac-label:after { content: "-"; } 
+.ac-input { display: none; }
+
+.ac-text, .ac-sub-text {
+opacity: 0; height: 0; margin-bottom: .5em; transition: opacity .5s ease-in-out; overflow: hidden; }
+.ac-input:checked ~ .ac-text, .ac-sub .ac-input:checked ~ .ac-sub-text { opacity: 1; height: auto; }
+.ac-sub .ac-label { background: none; font-weight: 600; padding: .5em 2em; margin-bottom: 0;}
+.ac-sub .ac-label:checked { background: none; border-bottom: 1px solid whitesmoke; }
+.ac-sub .ac-label:after, .ac-sub .ac-input:checked + .ac-label:after { left: 0; background: none; }
+.ac-sub .ac-input:checked + label, .ac-sub .ac-label:hover { background: none; }
+.ac-sub-text { padding: 0 1em 0 2em; }

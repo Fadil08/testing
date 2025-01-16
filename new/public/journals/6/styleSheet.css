@@ -1,0 +1,464 @@
+/* 
+Copyright sanguilmu.com 
+
+Design by: Thoha Firdaus
+
+
+*/
+
+.pkp_site_name .is_img img {
+	max-height: ;
+}
+
+
+.pkp_structure_page {
+	margin: 0 auto;
+	max-width: 1160px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1200px) {
+	.pkp_structure_page {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+.pkp_head_wrapper,
+.has_site_logo .pkp_head_wrapper {
+	position: relative;
+	padding-top: 0;
+}
+
+
+.pkp_navigation_primary_row {
+	background: #fff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+
+/* Struktur Sidebar */
+.kepala {
+	background-color: #be1521;
+	color: #fff;
+	padding: 1rem;
+	border-bottom: 0.3rem solid #be1521;
+	font-weight: bold;
+
+}
+
+.badan {
+	/* background-color: rgb(82, 126, 243); */
+	margin-top: -12px;
+}
+
+
+.badan a {
+	display: block;
+	text-decoration: none;
+	padding: 0.8rem;
+	background-color: #be1521;
+	color: #000000;
+	border-bottom: rgb(255, 255, 255) 0.2rem solid;
+	transition: 0.4s;
+	/* margin: 0.5rem 0rem 0.5rem 0rem; */
+	position: relative;
+	z-index: 1;
+}
+
+.badan a:hover {
+	background-color: #f1f1f0;
+	box-shadow: gray 0px 0px 1px 0px;
+}
+
+.badan a::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 0.2rem;
+	background-color: #be1521;
+	left: 0;
+	bottom: 0;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: 800ms;
+}
+
+.badan a:hover::after {
+	transform: scaleX(1);
+}
+
+
+/* Table of content */
+
+.obj_article_summary {
+	padding: 20px;
+	border-radius: 10px;
+	background: #AADDFF;
+}
+
+
+
+.obj_article_summary:hover {
+	background: #f1f1f0
+}
+
+
+.obj_article_summary {
+	padding-bottom: 15px !important;
+	border-bottom: solid 4px #be1521 !important;
+	font-size: 12px;
+	padding-top: 12px;
+}
+
+
+.pkp_structure_main h1 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.pkp_structure_main a {
+	color: #be1521 !important;
+}
+
+.pkp_structure_main a:hover {
+	color: #be1521 !important;
+}
+
+
+.obj_galley_link {
+	font-weight: 700;
+	text-transform: Capitalize !important;
+	background: #AADDFF !important;
+	color: #ffffff !important;
+	border: solid 1px #be1521 !important;
+}
+
+.obj_galley_link:hover {
+	background: #be1521 !important;
+	color: #be1521 !important;
+}
+
+/* Footer */
+.pkp_structure_footer_wrapper {
+	background: #A81E39;
+	border-bottom: 20px solid #be1521;
+	border-top: 4px solid #be1521;
+}
+
+.pkp_footer_content {
+	float: left;
+	width: 70%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.pkp_brand_footer {
+	float: right;
+	width: 10%;
+	padding-bottom: 10px;
+	padding-top: 50px;
+}
+
+
+
+/*Body and Abstrack*/
+.main_entry .item.abstract {
+	text-align: justify;
+}
+
+body {
+	font-family: Lora, geneva, sans-serif !important;
+}
+
+
+/* Struktur Header */
+.pkp_site_name_wrapper {
+	width: 100% !important;
+}
+
+.pkp_screen_reader {
+	margin: 0px !important;
+}
+
+.pkp_navigation_primary_row {
+	background: #be1521;
+	font-weight: bold;
+	border-top: 1px solid #ffffff
+}
+
+
+.pkp_site_name {
+	margin: 0 !important;
+	padding: 0px;
+}
+
+.pkp_site_name>a {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.pkp_site_name_wrapper {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin: 0 !important;
+}
+
+/* Ukuran Header */
+
+.pkp_site_name .is_img img {
+	max-height: 100% !important;
+	max-width: 100% !important;
+
+}
+
+.pkp_site_name a {
+	margin: auto !important;
+}
+
+
+/* Settingan Header */
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li a {
+	margin: 0 !important;
+	padding: 0 15px !important;
+	line-height: 40px !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li,
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li a {
+	font-family: robot, geneva, sans-serif;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	transition: 0.2s;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li a:hover {
+	background: #AADDFF;
+	color: #2211BD !important;
+	border-radius: 20px !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul,
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul li a:hover {
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul {
+	background: #be1521 !important
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul li {
+	border-bottom: solid 1px white !important;
+}
+
+.pkp_navigation_primary_row .pkp_navigation_primary_wrapper ul li ul li:last-child {
+	border-bottom: none !important;
+}
+
+
+
+
+
+.pkp_site_name_wrapper {
+	background: #be1521;
+	margi-bottom: 0px !important;
+}
+
+html,
+body {
+	background: url(https://journal.ipb.ac.id/public/site/images/rusmana/irm_biru.png");
+}
+
+.pkp_site_nav_toggle {
+	background: #be1521 !important;
+}
+
+.pkp_navigation_search_wrapper {
+	background: #be1521;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+
+.pkp_navigation_search_wrapper:hover {
+	border-radius: 0px;
+}
+
+.headerSearchPrompt.search_prompt {
+	color: #AADDFF;
+}
+
+.headerSearchPrompt.search_prompt:hover {
+	color: #be1521;
+	border-radius: 0px;
+}
+
+
+.homepage_about {
+	text-align: justify;
+}
+
+.obj_article_details .page_title {
+	background: #AADDFF;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px;
+}
+
+.meta .authors {
+	background: url(https://i.ibb.co/wwXb1Bh/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
+	font-weight: bold;
+	margin-top: 4px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+}
+
+.description {
+	text-align: justify;
+}
+
+
+.profile a {
+	background: #be1521;
+	color: #ffffff !important;
+
+}
+
+.pkp_navigation_user_wrapper {
+	padding-left: 0;
+	padding-right: 30px;
+	padding-top: 10px
+}
+
+.pkp_navigation_user.pkp_nav_list .profile a {
+	border-radius: 15px !important;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.dropdown-menu {
+	background: #be1521 !important;
+
+}
+
+.dropdown-menu li a:hover {
+	color: black !important;
+}
+
+.obj_issue_toc .heading .cover img {
+	box-shadow: 4px 2px 5px gray;
+	;
+}
+
+.homepage_image {
+	display: inline-block;
+	width: 28%;
+	margin-left: 0px;
+	float: right;
+	margin-top: 0px !important;
+
+}
+
+.homepage_image img {
+	margin: 60px 0px 0px -20px;
+	width: 300px;
+	display: inline-block;
+	float: left;
+	box-shadow: 4px 2px 5px gray;
+	margin-right: 15px;
+}
+
+.homepage_about {
+	display: inline-block;
+	width: 70%;
+	text-align: justify;
+}
+
+.pkp_structure_main {
+	margin-top: -20px;
+}
+
+@media (max-width: 600px) {
+
+	/* For mobile phones: */
+	.homepage_about {
+		width: 100%;
+	}
+
+	.pkp_structure_main {
+		padding-top: 20px !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.homepage_about {
+		margin-top: 30px;
+	}
+
+	.pkp_structure_main {
+		margin-top: 0px !important;
+	}
+
+	.pkp_site_name_wrapper {
+		padding-bottom: 0px;
+	}
+
+	.pkp_site_name_wrapper {
+		padding-top: ;
+	}
+
+	.pkp_navigation_search_wrapper {
+		margin: center !important;
+		padding: 10px !important;
+	}
+
+	.pkp_structure_main {
+		padding-top: 100px;
+	}
+}
+
+@media (max-width: 360px) {
+
+	/* For mobile phones: */
+	.homepage_image {
+		width: 90%;
+		margin: 0;
+	}
+
+	.homepage_about {
+		margin-top: 0px;
+	}
+
+	.pkp_structure_main {
+		padding-top: 0px !important;
+	}
+
+}
+
+.deskripsi {
+	border: 2px #2211BD solid;
+	padding: 10px;
+	background-color: #AADDFF;
+	text-align: left;
+}
+
+.pkp_block.block_custom {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.pkp_structure_sidebar.left {
+	margin-top: -30px !important;
+}

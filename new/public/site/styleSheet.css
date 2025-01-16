@@ -1,0 +1,39 @@
+.pkp_site_name .is_img img {
+	max-height: ;
+}
+.pkp_structure_page {
+	margin: 0 auto;
+	max-width: 1160px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1200px) {
+	.pkp_structure_page {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+.pkp_head_wrapper,
+.has_site_logo .pkp_head_wrapper {
+	position: relative;
+	padding-top: 0;
+}
+
+/*Body and Abstrack*/
+.main_entry .item.abstract {
+	text-align: justify;
+}
+/* Ukuran Header */
+
+.pkp_site_name .is_img img {
+	max-height: 100% !important;
+	max-width: 100% !important;
+
+}
+.homepage_about {
+	text-align: justify;
+}
+.description {
+	text-align: justify;
+}

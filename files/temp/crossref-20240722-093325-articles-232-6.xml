@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/4.3.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" version="4.3.6" xsi:schemaLocation="http://www.crossref.org/schema/4.3.6 https://www.crossref.org/schemas/crossref4.3.6.xsd">
+  <head>
+    <doi_batch_id>_1721612005</doi_batch_id>
+    <timestamp>1721612005</timestamp>
+    <depositor>
+      <depositor_name>Universitas 17 Agustus 1945 Banyuwangi</depositor_name>
+      <email_address>rumahjurnal@untag-banyuwangi.ac.id</email_address>
+    </depositor>
+    <registrant>Fakultas Ilmu Sosial dan Ilmu Politik Universitas 17 Agustus 1945 Banyuwangi</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>KATARSIS</full_title>
+        <abbrev_title>KTS</abbrev_title>
+        <issn media_type="electronic">3047-6445</issn>
+        <issn media_type="print">2776-5369</issn>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>05</month>
+          <day>17</day>
+          <year>2024</year>
+        </publication_date>
+        <journal_volume>
+          <volume>1</volume>
+        </journal_volume>
+        <issue>2</issue>
+      </journal_issue>
+      <journal_article xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" publication_type="full_text" metadata_distribution_opts="any">
+        <titles>
+          <title>IMPLEMENTASI PERBUP NO 11 TAHUN 2018 TENTANG PEMBIAYAAN PTSL DIBEBANKAN KEPADA MASYARAKAT (Studi Desa Kepundungan Kecamatan Srono Kabupaten Banyuwangi)</title>
+        </titles>
+        <contributors>
+          <person_name contributor_role="author" sequence="first" language="en">
+            <given_name>Khusnul Amalia</given_name>
+            <surname/>
+          </person_name>
+          <person_name contributor_role="author" sequence="additional" language="en">
+            <given_name>Sri Rahayu</given_name>
+            <surname/>
+          </person_name>
+          <person_name contributor_role="author" sequence="additional" language="en">
+            <given_name>Dimas Imaniar</given_name>
+            <surname/>
+          </person_name>
+        </contributors>
+        <jats:abstract xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1">
+          <jats:p>Implementation Of Regent Regulation Number 11 Of 2018 Concerning Pembiayaan Persiapan Pendaftaran Tanah Sistematis Lengkap Yang Dibebankan Kepada Masyarakat (Study In Kepundungan Village Srono District Banyuwangi Regency).The purpose of this study is to find out what factors influence in order to Implementation of Bupati Regulation Number 11 of 2018 concerning Pembiayaan Persiapan Pendaftaran Tanah Sistematis Lengkap Yang Dibebankan Kepada Masyarakat (Study in Kepundungan Village, Srono District, Banyuwangi Regency). The method used in the study is a qualitative method by collecting data through interviews, observation and documentation. The sample was selected using a purposive sample technique in which the sampling of data sources with certain considerations ie the source of the data was considered the most knowledgeable about what was studied. While data analysis uses data reduction, data presentation and drawing conclusions. The results showed that the Pendaftaran Tanah Sistematis Lengkap (PTSL) study in Kepundungan Village, Srono Subdistrict, Banyuwangi Regency in terms of George Edward III theory, included clarity of communication and human resources, as a whole is not optimal. This is based on the results of interviews and observations that have been carried out, where village officials as informants provide information to researchers for research needs.</jats:p>
+        </jats:abstract>
+        <publication_date media_type="online">
+          <month>05</month>
+          <day>14</day>
+          <year>2024</year>
+        </publication_date>
+        <pages>
+          <first_page>45</first_page>
+          <last_page>58</last_page>
+        </pages>
+        <doi_data>
+          <doi>10.62734/kts.v1i2.232</doi>
+          <resource>https://jurnal.untag-banyuwangi.ac.id/index.php/katarsis/article/view/232</resource>
+          <collection property="crawler-based">
+            <item crawler="iParadigms">
+              <resource>https://jurnal.untag-banyuwangi.ac.id/index.php/katarsis/article/download/232/188</resource>
+            </item>
+          </collection>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://jurnal.untag-banyuwangi.ac.id/index.php/katarsis/article/download/232/188</resource>
+            </item>
+          </collection>
+        </doi_data>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
